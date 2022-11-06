@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="zh-Hans" data-loading>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>成电制霸</title>
+	<link rel="stylesheet" href="样式.css?v={version}">
+</head>
+<body>
+	<?xml version="1.0" encoding="utf-8"?>
+	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -50 1120 1120">
+	<style></style>
+	<style>
+	text{
+		font-family: 'Tensentype-JiaLiDaYuanJF',sans-serif;
+		fill:#111;
+		font-size:30px;
+	}
+	#标题,
+	#分数{font-size:40px;}
+	.fs24{font-size:24px;}
+	#地区 path,
+	.边框{
+		fill-rule:evenodd;
+		clip-rule:evenodd;
+		stroke:#000;
+		stroke-width:4;
+		stroke-linecap:round;
+		stroke-linejoin:round;
+	}
+	#地区 path{
+		fill:#FFF;
+		cursor: pointer;
+		pointer-events: auto;
+	}
+	.边框{fill:none;}
+	#地区 path[level="5"]{fill:#FF7E7E;}
+	#地区 path[level="4"]{fill:#FFB57E;}
+	#地区 path[level="3"]{fill:#FFE57E;}
+	#地区 path[level="2"]{fill:#A8FFBE;}
+	#地区 path[level="1"]{fill:#88AEFF;}
+	</style>
+	<g id="地区">
+		<path id="校医院" d="M120,140V200H20V140H120z"/>
+		<rect x="100" y="260" width="40" height="20" style="fill:#FFF;stroke:black;stroke-width:3"/>
+		<path id="综合楼" d="M100,200V340H60V200H100z"/>
+		<path id="商业街" d="M220,40V240H140V40H220z"/>
+		<path id="硕丰苑" d="M260,120V220H220V120H260z"/>
+		<path id="学活" d="M200,240V360H140V240H200z"/>
+		<path id="5号科研楼" d="M160,360V420H55V360H160z"/>
+		<path id="光电楼" d="M160,460V493H55V460H160z"/>
+		<path id="物院楼" d="M160,493V526H55V493H160z"/>
+		<path id="电子楼" d="M160,526V559H55V526H160z"/>
+		<path id="学活" d="M200,240V360H140V240H200z"/>
+		<path id="湿地" d="M340,360V560H320V580H160V360H340z"/>
+		<path id="空天楼实训基地" d="M180,580V660H40V580H180z"/>
+		<path id="硕丰苑" d="M680,20V60H500V20H680z"/>
+		<path id="朝阳餐厅" d="M580,60V140H480V60H580z"/>
+		<path id="学知苑" d="M580,120H680V280H640V260H520V300H500V340H320V120H480V140H580V120z"/>
+		<path id="银杏苑" d="M460,180V240H360V180H460z"/>
+		<path id="西北" d="M360,180v60h-40v-60h40z"/>
+		<path id="银桦" d="M340,240v60h40v-60h-40z"/>
+		<path id="紫荆" d="M380,240v60h40v-60h-40z"/>
+		<path id="芙蓉" d="M420,240v60h40v-60h-40z"/>
+		<path id="思学苑" d="M640,260V340H520V260H640z"/>
+		<path id="家园" d="M640,260v-60h-40v60h40z"/>
+		<path id="思源" d="M600,260v-60h-40v60h40z"/>
+		<path id="学子" d="M560,260v-60h-40v60h40z"/>
+		<path id="蜜雪冰城" d="M520,300V340H500V300H520z"/>
+		<path id="博翰苑" d="M820,80V140H740V80H820z"/>
+		<path id="博翰苑" d="M740,280V360H640V280H640z"/>
+		<path id="综合训练馆" d="M820,280V360H740V280H820z"/>
+		<path id="西湖" d="M320,580v240h-140v-240h140z"/>
+		<path id="博物馆" d="M320,580v60h-35v-60h35z"/>
+		<path id="湖心岛" d="M320,720V740h-40v20h-60v-20h-40v-20h40v-20h60v20h40z"/>
+		<path id="孔雀园" d="M300,770v40h-60v-40h60z"/>
+		<path id="经管楼" d="M180,730V820h-120V730H180z"/>
+		<path id="创新中心" d="M200,820v80h-80V820H200z"/>
+		<path id="信通楼" d="M340,400h140v160H340V400z"/>
+		<path id="麦克斯韦" d="M480,445v45h-20v-45h20z"/>
+		<path id="基础实验大楼" d="M500,510v60h-160v-60h160v60z"/>
+		<path id="品学楼" d="M480,360h220v160H480V360z"/>
+		<path id="图书馆" d="M320,560h120v140H320V560z"/>
+		<path id="操场" d="M820,340 v140 h100 v-140z"/>
+        <path id="其他运动场地" d="M820,180 h200 v380 h-200 v-80 h100 v-140 h-100z"/>
+        <path id="立人楼" d="M720,500 v100 h-140 v-100z"/>
+        <path id="东湖" d="M780,600 V820 H560 V600z"/>
+        <path id="时间广场" d="M440,640 v60 h60 v-60z"/>
+		<path id="草坪" d="M440,640 v60 h-25 v-60z"/>
+        <path id="主楼" d="M640,820 V980 H320 V820z"/>
+        <path id="体育场&体育馆" d="M880,820 V1040 H520 V980 H640 V820z"/>
+		<path id="桃园餐厅" d="M740,980 v60h-80v-60h80z"/>
+        <path id="众创空间" d="M880,940 H1040 V1000 H880z"/>
+		<path id="劳育基地" d="M1040,900 h60v100h-60v-100z"/>
+
+		
+		
+
+	</g>
+	<g id="地名">
+		<text transform="matrix(1 0 0 1 25 180)">校医院</text>
+		<text transform="matrix(1 0 0 1 65 250)">综</text>
+		<text transform="matrix(1 0 0 1 65 290)">合</text>
+		<text transform="matrix(1 0 0 1 65 330)">楼</text>
+		<text transform="matrix(1 0 0 1 160 120)">商</text>
+		<text transform="matrix(1 0 0 1 160 160)">业</text>
+		<text transform="matrix(1 0 0 1 160 200)">街</text>
+		<text transform="matrix(1 0 0 1 225 150)">硕</text>
+		<text transform="matrix(1 0 0 1 225 180)">丰</text>
+		<text transform="matrix(1 0 0 1 225 210)">苑</text>
+		<text transform="matrix(1 0 0 1 225 210)">苑</text>
+		<text transform="matrix(1 0 0 1 155 290)">学</text>
+		<text transform="matrix(1 0 0 1 155 330)">活</text>
+		<text transform="matrix(1 0 0 1 220 480)">湿地</text>
+		<text transform="matrix(1 0 0 1 80 387)">5号</text>
+		<text transform="matrix(1 0 0 1 60 415)">科研楼</text>
+		<text transform="matrix(1 0 0 1 65 485)" style="font-size: 25px;">光电楼</text>
+		<text transform="matrix(1 0 0 1 65 518)" style="font-size: 25px;">物院楼</text>
+		<text transform="matrix(1 0 0 1 65 550)" style="font-size: 25px;">电子楼</text>
+		<text transform="matrix(1 0 0 1 60 620)">空天楼</text>
+		<text transform="matrix(1 0 0 1 50 645)">实训基地</text>
+		<text transform="matrix(1 0 0 1 220 655)">西湖</text>
+		<text transform="matrix(1 0 0 1 335 630)">图书馆</text>
+		<text transform="matrix(1 0 0 1 295 600)" style="font-size: 15px;">博</text>
+		<text transform="matrix(1 0 0 1 295 615)" style="font-size: 15px;">物</text>
+		<text transform="matrix(1 0 0 1 295 630)" style="font-size: 15px;">馆</text>
+		<text transform="matrix(1 0 0 1 220 735)" style="font-size: 20px;">湖心岛</text>
+		<text transform="matrix(1 0 0 1 240 795)" style="font-size: 20px;">孔雀园</text>
+		<text transform="matrix(1 0 0 1 75 785)">经管楼</text>
+		<text transform="matrix(1 0 0 1 130 855)">创新</text>
+		<text transform="matrix(1 0 0 1 130 885)">中心</text>
+		<text transform="matrix(1 0 0 1 360 495)">信通楼</text>
+		<text transform="matrix(1 0 0 1 345 545)" style="font-size: 23px;">基础实验大楼</text>
+		<text transform="matrix(1 0 0 1 540 450)">品学楼</text>
+		<text transform="matrix(1 0 0 1 535 310)">思学苑</text>
+		<text transform="matrix(1 0 0 1 330 320)" style="font-size: 20px;">蜜雪冰城在这!👉</text>
+		<text transform="matrix(1 0 0 1 350 435)" style="font-size: 17px;">麦克斯韦爷爷👇</text>
+		<text transform="matrix(1 0 0 1 365 220)">银杏苑</text>
+		<text transform="matrix(1 0 0 1 327 205)" style="font-size: 23px;">西</text>
+		<text transform="matrix(1 0 0 1 327 230)" style="font-size: 23px;">北</text>
+		<text transform="matrix(1 0 0 1 347 265)" style="font-size: 23px;">银</text>
+		<text transform="matrix(1 0 0 1 347 290)" style="font-size: 23px;">桦</text>
+		<text transform="matrix(1 0 0 1 387 265)" style="font-size: 23px;">紫</text>
+		<text transform="matrix(1 0 0 1 387 290)" style="font-size: 23px;">荆</text>
+		<text transform="matrix(1 0 0 1 427 265)" style="font-size: 23px;">芙</text>
+		<text transform="matrix(1 0 0 1 427 290)" style="font-size: 23px;">蓉</text>
+		<text transform="matrix(1 0 0 1 535 190)">学知苑</text>
+		<text transform="matrix(1 0 0 1 530 225)" style="font-size: 23px;">学</text>
+		<text transform="matrix(1 0 0 1 530 250)" style="font-size: 23px;">子</text>
+		<text transform="matrix(1 0 0 1 570 225)" style="font-size: 23px;">思</text>
+		<text transform="matrix(1 0 0 1 570 250)" style="font-size: 23px;">源</text>
+		<text transform="matrix(1 0 0 1 610 225)" style="font-size: 23px;">家</text>
+		<text transform="matrix(1 0 0 1 610 250)" style="font-size: 23px;">园</text>
+		<text transform="matrix(1 0 0 1 505 95)" style="font-size: 25px;">朝阳</text>
+		<text transform="matrix(1 0 0 1 505 125)"style="font-size: 25px;">餐厅</text>
+		<text transform="matrix(1 0 0 1 545 50)"style="font-size: 25px;">硕丰苑</text>
+		<text transform="matrix(1 0 0 1 745 120)" style="font-size: 23px;">博翰苑</text>
+		<text transform="matrix(1 0 0 1 650 325)" style="font-size: 27px;">博翰苑</text>
+		<text transform="matrix(1 0 0 1 758 310)" style="font-size: 23px;">综合</text>
+		<text transform="matrix(1 0 0 1 746 340)" style="font-size: 23px;">训练馆</text>
+        <text transform="matrix(1 0 0 1 830 280)">其他运动场地</text>
+        <text transform="matrix(1 0 0 1 600 560)">立人楼</text>
+        <text transform="matrix(1 0 0 1 640 720)">东湖</text>
+        <text transform="matrix(1 0 0 1 440 900)">主楼</text>
+        <text transform="matrix(1 0 0 1 660 940)">体育场&体育馆</text>
+		<text transform="matrix(1 0 0 1 675 1005)" style="font-size: 26px;">桃园</text>
+		<text transform="matrix(1 0 0 1 675 1030)" style="font-size: 26px;">餐厅</text>
+        <text transform="matrix(1 0 0 1 900 980)">众创空间</text>
+		<text transform="matrix(1 0 0 1 1055 925)" style="font-size: 23px;">劳</text>
+		<text transform="matrix(1 0 0 1 1055 950)" style="font-size: 23px;">育</text>
+		<text transform="matrix(1 0 0 1 1055 975)" style="font-size: 23px;">基</text>
+		<text transform="matrix(1 0 0 1 1055 1000)" style="font-size: 23px;">地</text>
+        <text transform="matrix(1 0 0 1 445 665)" style="font-size: 23px;">时间</text>
+        <text transform="matrix(1 0 0 1 445 690)" style="font-size: 23px;">广场</text>
+		<text transform="matrix(1 0 0 1 415 665)" style="font-size: 23px;">草</text>
+        <text transform="matrix(1 0 0 1 415 690)" style="font-size: 23px;">坪</text>
+		<text transform="matrix(1 0 0 1 840 430)">操场</text>
+		<text transform="matrix(1 0 0 1 840 630)" style="font-size: 25px;">地图因篇幅限制,</text>
+		<text transform="matrix(1 0 0 1 840 660)" style="font-size: 25px;">无法涵盖所有地点,</text>
+		<text transform="matrix(1 0 0 1 840 690)" style="font-size: 25px;">如有遗漏，欢迎在评论补充!</text>
+		<text transform="matrix(1 0 0 1 -80 400)">成</text>
+		<text transform="matrix(1 0 0 1 -80 450)">电</text>
+		<text transform="matrix(1 0 0 1 -80 500)">制</text>
+		<text transform="matrix(1 0 0 1 -80 550)">霸</text>
+
+	</g>
+	<text id="分数" x="35" y="1000">分数</text>
+	<g id="等级">
+		<path fill="#FF7E7E" d="M1200 450h220v50H1200Z"/>
+		<path fill="#FFB57E" d="M1200 500h220v50H1200Z"/>
+		<path fill="#FFE57E" d="M1200 550h220v50H1200Z"/>
+		<path fill="#A8FFBE" d="M1200 600h220v50H1200Z"/>
+		<path fill="#88AEFF" d="M1200 650h220v50H1200Z"/>
+		<path fill="#FFF" d="M1200 700h220v50H1200Z"/>
+		<path class="边框" d="M1200 448h220v304H1200Z"/>
+		<text x="1210" y="484">这是我家5</text>
+		<text x="1210" y="535">经常前往4</text>
+		<text x="1210" y="585">有时会去3</text>
+		<text x="1210" y="635">偶尔会去2</text>
+		<text x="1210" y="685">只是路过1</text>
+		<text x="1210"  y="735">闻所未闻0</text>
+	</g>
+	</svg>
+<div id="设置等级">
+    <h2>地区</h2>
+    <a data-level="5">这是我家5</a>
+    <a data-level="4">经常前往4</a>
+    <a data-level="3">有时会去3</a>
+    <a data-level="2">偶尔会去2</a>
+    <a data-level="1">只是路过1</a>
+    <a data-level="0">闻所未闻0</a>
+</div>
+<footer>
+	<a href="https://lab.magiconch.com" target="_blank">lab</a>
+	<a href="https://github.com/itorr/china-ex" target="_blank">GitHub</a>
+	<a id="保存" class="按钮">保存成图片</a>
+</footer>
+<div id="输出" style="display:none">
+	<div>
+		<img>
+	</div>
+	<p>
+		手机端可长按图片
+		<b>“添加到照片”</b>
+	</p>
+	<div>
+		<a class="按钮">关闭</a>
+	</div>
+</div>
+<script src="脚本.js?v={version}"></script>
+</body>
+</html>
