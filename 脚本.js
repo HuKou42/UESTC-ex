@@ -61,10 +61,10 @@ const $ = (名,元素 = 文档) => 元素.querySelector(名);
 const 字体名 = '字体';
 const 背景色 =    '#b4d8ef';
 const 本地存储等级们钥匙 = 'china-ex-levels';
-const 保存文件名 = `[神奇海螺][中国制霸].png`;
+const 保存文件名 = `[成电制霸].png`;
 
-const 宽 = 1134;
-const 高 = 976;
+const 宽 = 1200;
+const 高 = 1200;
 const 比 = 二;
 const 最小间距 = 6;
 
