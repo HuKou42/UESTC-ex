@@ -200,7 +200,7 @@ const 日志 = _=>(新建图())[源] = `https://lab.magiconch.com/api/china-ex/l
 const 保存图像 = _=>{
     如何做爱元素[设置属性](运行中属性,真);
 
-    const 文档文本 = `<?xml version="1.0" encoding="utf-8"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -50 1120 1120" ${宽度}="1120px" ${高度}="1120px">${图形[肉]}</svg>`;
+    const 文档文本 = `<?xml version="1.0" encoding="utf-8"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -50 1200 1200" ${宽度}="1200px" ${高度}="1200px">${图形[肉]}</svg>`;
     const 数据地址 = 从文档文本新建图形文件(文档文本);
 
     地址变图像元素(数据地址,图=>{
